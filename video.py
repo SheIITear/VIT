@@ -20,8 +20,8 @@ class cell:
 
 class picture:
     def __init__(self, im):
-        self.width = math.floor(75/2)
-        self.height = math.floor(32)
+        self.width = 75/2
+        self.height = 32
         self.text = []
         px = im.load()
         for i in range(self.height):
