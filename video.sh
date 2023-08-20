@@ -21,4 +21,4 @@ try:
 except KeyboardInterrupt:
   pass
 EOF
-) < <(cat out)
+) < <(cat /dev/shm/out)
